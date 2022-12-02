@@ -1,29 +1,31 @@
 function getLength(arr){
     //return length of arr
-    return ?
+    return arr.length;
 }
 
 function getFirst(arr){
     //return the first element of arr
-    return ?
+    return arr[0];
 }
   
 function getLast(arr){
     //return the last element of arr
-    return ?
+  let lstArr = arr.slice(-1);
+    return lstArr[0];
 }
 
 function pushElement(arr){
     var el=1;
     //push el to arr
+    arr.push(el)
     
-    return arr
+    return arr;
 }
  
 function popElement(arr){
     //pop an element from arr
-    
-    return ?
+    arr.pop();
+    return arr;
 }
 
 console.log(getLength([1,2,3]));// 3
